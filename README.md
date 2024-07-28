@@ -14,9 +14,9 @@ This is the implementation of the paper [One Small and One Large for Document-le
 
 ## Overview
 <p align="center" width="100%">
-<img src="./CsgoEAE_backbone.jpg" alt="CsgoEAE" style="width: 30%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
+<img src="./CsEAE_backbone.jpg" alt="CsEAE" style="width: 30%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
 </p>
-In this work we present CsgoEAE for document-level event argument extraction. We formulate highlights as follow:
+In this work we present CsEAE for document-level event argument extraction. We formulate highlights as follow:
 
 - Multiple-event prompts aid in enhancing the model's performance when dealing with complex event relationships.
 - Constructing structured information by limiting the receptive field can alleviate the interference of redundant information.
@@ -54,7 +54,7 @@ You could see hyperparameter setting in `./scripts/train_[dataset].sh` and `conf
 
 
 ## Citation
-Please cite our paper if you use CsgoEAE in your work:
+Please cite our paper if you use CsEAE in your work:
 ```bibtex
 
 ```
