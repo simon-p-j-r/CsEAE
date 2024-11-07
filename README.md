@@ -18,7 +18,7 @@ In this work we present CsEAE and CsLLMs for document-level event argument extra
 We formulate highlights of CsEAE as follow:
 
 <p align="center" width="100%">
-<img src="./CsEAE.png" alt="CsEAE" style="width: 60%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
+<img src="./Figures/CsEAE.png" alt="CsEAE" style="width: 60%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
 </p>
 
 - Multiple-event prompts aid in enhancing the model's performance when dealing with complex event relationships.
@@ -28,10 +28,10 @@ We formulate highlights of CsEAE as follow:
 We formulate highlights of CsLLMs as follow:
 
 <p align="center" width="100%">
-<img src="./CsLLMs_prompt.png" alt="Prompt for CsLLMs" style="width: 60%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
+<img src="./Figures/CsLLMs_prompt.png" alt="Prompt for CsLLMs" style="width: 30%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
 </p>
 <p align="center" width="100%">
-<img src="./CsLLMs.png" alt="CsLLMs" style="width: 60%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
+<img src="./Figures/CsLLMs.png" alt="CsLLMs" style="width: 60%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
 </p>
 
 - We designed different prompts for various datasets and further used SFT to enhance the performance of LLMs. 
