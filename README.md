@@ -28,7 +28,7 @@ We formulate highlights of CsEAE as follow:
 We formulate highlights of CsLLMs as follow:
 
 <p align="center" width="100%">
-<img src="./Figures/CsLLMs_prompt.png" alt="Prompt for CsLLMs" style="width: 30%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
+<img src="./Figures/CsLLMs_prompt.png" alt="Prompt for CsLLMs" style="width: 40%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
 </p>
 <p align="center" width="100%">
 <img src="./Figures/CsLLMs.png" alt="CsLLMs" style="width: 60%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
@@ -41,12 +41,19 @@ We formulate highlights of CsLLMs as follow:
 ## Preparation
 
 ### Environment
-To run our code, please install all the dependency packages by using the following command:
+To run our code of CsEAE, please install all the dependency packages by using the following command:
 
 ```
-pip install -r requirements.txt
+pip install -r CsEAE/requirements.txt
 ```
 All experiments run with BART_Large, You can install from [Huggingface](https://huggingface.co/facebook/bart-large).
+
+To run our code of CsLLMs, please install all the dependency packages by using the following command:
+
+```
+pip install -r CsLLMs/requirements.txt
+```
+You can install the LLMs of Open-source from [Huggingface](https://huggingface.co/collections/meta-llama/meta-llama-3-66214712577ca38149ebb2b6).
 
 ### Data
 We conduct experiments on three common datasets: RAMS, WIKIEVENTS and MLEE.
@@ -54,9 +61,9 @@ We conduct experiments on three common datasets: RAMS, WIKIEVENTS and MLEE.
 ## Run the model
 
 ### Quick start
-You could simply run PAIE with following commands: 
+You could simply run CsEAE with following commands: 
 ```bash
-bash ./scripts/train_{mlee|rams|wikievent}_large.sh
+bash .CsEAE/scripts/train_{mlee|rams|wikievent}_large.sh
 ```
 Folders will be created automatically to store: 
 
