@@ -13,7 +13,7 @@ This is the implementation of the paper [One Small and One Large for Document-le
 
 ## Overview
 <p align="center" width="100%">
-<img src="./CsEAE.png" alt="CsEAE" style="width: 30%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
+<img src="./CsEAE.png" alt="CsEAE" style="width: 60%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
 </p>
 In this work we present CsEAE for document-level event argument extraction. We formulate highlights as follow:
 
