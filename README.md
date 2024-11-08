@@ -60,7 +60,8 @@ You can install the LLMs of Open-source from [Huggingface](https://huggingface.c
 We conduct experiments on three commonly used datasets: **RAMS**, **WikiEvents**, and **MLEE**.
 
 We used the data preprocessing method from [TabEAE](https://github.com/Stardust-hyx/TabEAE). For details, please refer to the TabEAE repository. 
-If you find the preprocessing steps too complicated, feel free to email me directly for the preprocessed data (except for ACE, as it is not free). Thanks to the creators of these datasets for making their work available!
+If you find the preprocessing steps too complicated, feel free to email me directly for the preprocessed data (except for ACE, as it is not free). 
+Thanks to the creators of these datasets for making their work available!
 
 ---
 
