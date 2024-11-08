@@ -26,7 +26,7 @@ We formulate highlights of CsEAE as follow:
 - Constructing structured information by limiting the receptive field can alleviate the interference of redundant information.
 - The prefix-based approach can integrate various auxiliary perceptual information.
 
-We formulate highlights of CsLLMs as follow:
+We formulate contributions of CsLLMs as follow:
 
 <p align="center" width="100%">
 <img src="./Figures/CsLLMs_prompt.png" alt="Prompt for CsLLMs" style="width: 40%; height: auto; display: inline-block; margin: auto; border-radius: 40%;">
@@ -128,7 +128,7 @@ We gratefully acknowledge the contributions of Yubo Ma, I-Hung Hsu and Yuxin He 
 ```
 --- 
 ## Citation
-Please cite our paper if you use CsEAE in your work:
+Please cite our paper if you use CsEAE or CsLLMs in your work:
 ```bibtex
 
 ```
