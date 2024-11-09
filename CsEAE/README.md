@@ -19,11 +19,20 @@ This is the implementation of CsEAE in the paper [One Small and One Large for Do
 ## Preparation
 
 ### Environment
-To run our code, please install all the dependency packages by using the following command:
 
 ```
-pip install -r requirements.txt
+python==3.8.17
+torch==2.0.1
+transformers==4.18.0
+spacy==3.6.1
+scipy==1.5.4
+pem,am==1.2.2
+networkx==3.1
+jsonlines==2.0.0
+tqdm==4.66.1
+ipdb==0.13.9
 ```
+
 
 ### Data
 We conduct experiments on 3 datasets: RAMS, WikiEvents and MLEE.
