@@ -76,7 +76,8 @@ For detailed usage and additional information, please refer to the documentation
 ## Acknowledgments
 We gratefully acknowledge the contributions of Yubo Ma, I-Hung Hsu and Yuxin He for their foundational code and data preprocessing methods.
 ```bibtex
-感谢Yubo Ma提供的基础代码：
+
+Thank you to Yubo Ma for providing the basic code:
 @inproceedings{ma-etal-2022-prompt,
     title = "{P}rompt for Extraction? {PAIE}: {P}rompting Argument Interaction for Event Argument Extraction",
     author = "Ma, Yubo  and
@@ -96,7 +97,7 @@ We gratefully acknowledge the contributions of Yubo Ma, I-Hung Hsu and Yuxin He 
     pages = "6759--6774",
 }
 
-感谢Yubo Ma提供的基础代码：
+Thank you to Yubo Ma for providing the basic code:
 @misc{ma2023large,
       title={Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!}, 
       author={Yubo Ma and Yixin Cao and YongChing Hong and Aixin Sun},
@@ -106,7 +107,7 @@ We gratefully acknowledge the contributions of Yubo Ma, I-Hung Hsu and Yuxin He 
       primaryClass={cs.CL}
 }
 
-感谢I-Hung Hsu提供的基础代码：
+Thank you to I-Hung Hsu for providing the basic code:
 @inproceedings{acl2023ampere,
     author    = {I-Hung Hsu and Zhiyu Xie and Kuan-Hao Huang and Premkumar Natarajan and Nanyun Peng},
     title     = {AMPERE: AMR-Aware Prefix for Generation-Based Event Argument Extraction Model},
@@ -114,7 +115,7 @@ We gratefully acknowledge the contributions of Yubo Ma, I-Hung Hsu and Yuxin He 
     year      = {2023},
 }
 
-感谢yuxin He提供的数据预处理方法：
+Thank you to Yuxin He for providing the data preprocessing method:
 @inproceedings{he-etal-2023-revisiting,
     title = "Revisiting Event Argument Extraction: Can {EAE} Models Learn Better When Being Aware of Event Co-occurrences?",
     author = "He, Yuxin  and
