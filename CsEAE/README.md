@@ -8,12 +8,13 @@ This is the implementation of CsEAE in the paper [One Small and One Large for Do
 * [Preparation](#preparation)
   * [Environment](#environment)
   * [Data](#data)
-* [Run the model](#run-lm-bff)
+* [Run the model](#run-the-model)
   * [Quick start](#quick-start)
   * [Experiments with multiple runs](#experiments-with-multiple-runs)
 * [Citation](#citation)
 
 ## Overview
+Document-level Event Argument Extraction (EAE) faces numerous challenges compared to sentence-level EAE due to the surge in input text. In this paper, we primarily address two issues: a) difficulty in distinguishing semantic boundaries between events, b) dispersion of attention caused by redundant information. To tackle these problems, we propose a **C**o and **S**tructure aware generative-based of **E**vent **A**rgument **E**xtraction model (**CsEAE**).
 
 
 ## Preparation
@@ -78,9 +79,9 @@ Folders will be created automatically to store:
 2. File `log.txt`: recording hyper-parameters, training process and evaluation result
 3. File `best_dev_results.log`/`best_test_related_results.log`: showing prediction results of checkpoints on every sample in dev/test set.
 
-You could see hyperparameter setting in `./scripts/train_[dataset].sh` and `config_parser.py`. We give most of hyperparameters a brief explanation in `config_parser.py`.
+You could see hyperparameter setting in `./scripts/train_[dataset]_large.sh` and `config_parser.py`. We give most of hyperparameters a brief explanation in `config_parser.py`.
 
-Above three scripts train models with BART-Large. If you want to train models with it, please change `--model_name_or_path` from (https://huggingface.co/facebook/bart-large) and run following commands:
+Above three scripts train models with BART-Large. If you want to train models with it, please change `--model_name_or_path` from [Huggingface](https://huggingface.co/facebook/bart-large) and run following commands:
 ```bash
 bash ./scripts/train_{ace|rams|wikievent}_large.sh
 ```
