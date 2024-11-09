@@ -1,5 +1,5 @@
 # CsEAE (**C**o and **S**tructure **E**vent **A**rgument **E**xtraction)
-This is the implementation of the paper [One Small and One Large for Document-level Event Argument Extraction]
+This is the implementation of CsEAE in the paper [One Small and One Large for Document-level Event Argument Extraction]
 
 
 ## Quick links
