@@ -75,61 +75,15 @@ For detailed usage and additional information, please refer to the documentation
 --- 
 ## Acknowledgments
 We gratefully acknowledge the contributions of Yubo Ma, I-Hung Hsu and Yuxin He for their foundational code and data preprocessing methods.
-```bibtex
 
-Thank you to Yubo Ma for providing the basic code:
-@inproceedings{ma-etal-2022-prompt,
-    title = "{P}rompt for Extraction? {PAIE}: {P}rompting Argument Interaction for Event Argument Extraction",
-    author = "Ma, Yubo  and
-      Wang, Zehao  and
-      Cao, Yixin  and
-      Li, Mukai  and
-      Chen, Meiqi  and
-      Wang, Kun  and
-      Shao, Jing",
-    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = may,
-    year = "2022",
-    address = "Dublin, Ireland",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.acl-long.466",
-    doi = "10.18653/v1/2022.acl-long.466",
-    pages = "6759--6774",
-}
 
-Thank you to Yubo Ma for providing the basic code:
-@misc{ma2023large,
-      title={Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!}, 
-      author={Yubo Ma and Yixin Cao and YongChing Hong and Aixin Sun},
-      year={2023},
-      eprint={2303.08559},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
+Many thanks to [Yubo Ma](https://mayubo2333.github.io/) for the open-source projects [LLM-IE](https://github.com/mayubo2333/LLM-IE) and [PAIE](https://github.com/mayubo2333/PAIE), which provided valuable code support and inspiration for this project.
 
-Thank you to I-Hung Hsu for providing the basic code:
-@inproceedings{acl2023ampere,
-    author    = {I-Hung Hsu and Zhiyu Xie and Kuan-Hao Huang and Premkumar Natarajan and Nanyun Peng},
-    title     = {AMPERE: AMR-Aware Prefix for Generation-Based Event Argument Extraction Model},
-    booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL)},
-    year      = {2023},
-}
+Special thanks to [I-Hung Hsu](https://ihungalexhsu.github.io/) for the open-source project [AMPERE](https://github.com/PlusLabNLP/AMPERE), which contributed valuable code support and inspiration for this project.
 
-Thank you to Yuxin He for providing the data preprocessing method:
-@inproceedings{he-etal-2023-revisiting,
-    title = "Revisiting Event Argument Extraction: Can {EAE} Models Learn Better When Being Aware of Event Co-occurrences?",
-    author = "He, Yuxin  and
-      Hu, Jingyue  and
-      Tang, Buzhou",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.acl-long.701",
-    pages = "12542--12556",
-}
-```
+Many thanks to [Yuxin He](https://stardust-hyx.github.io/) for the open-source project [TabEAE](https://github.com/Stardust-hyx/TabEAE), which also provided valuable code support and inspiration for this project.
+
+
 --- 
 ## Citation
 Please cite our paper if you use CsEAE or CsLLMs in your work:
