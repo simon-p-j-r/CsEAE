@@ -1,4 +1,6 @@
-This is the implementation of **LLMs** in [One Small and One Large for Document-level Event Argument Extraction]
+# CsLLMs (**C**o and **S**tructure **L**arge **L**anguage **M**odels)
+
+This is the implementation of **CsLLMs** in [One Small and One Large for Document-level Event Argument Extraction]
 
 If you have any question about this work, feel free to contact 1354527247@qq.com (Jiaren Peng)
 
