@@ -149,6 +149,13 @@ We gratefully acknowledge the contributions of Yubo Ma, I-Hung Hsuand Yuxin He f
 ## Citation
 Please cite our paper if it is helpful for your work:
 ```bibtex
-@misc{
+@misc{peng2024smalllargedocumentlevelevent,
+      title={One Small and One Large for Document-level Event Argument Extraction}, 
+      author={Jiaren Peng and Hongda Sun and Wenzhong Yang and Fuyuan Wei and Liang He and Liejun Wang},
+      year={2024},
+      eprint={2411.05895},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.05895}, 
 }
 ```
