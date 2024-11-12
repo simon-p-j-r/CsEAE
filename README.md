@@ -88,5 +88,13 @@ Many thanks to [Yuxin He](https://stardust-hyx.github.io/) for the open-source p
 ## Citation
 Please cite our paper if you use CsEAE or CsLLMs in your work:
 ```bibtex
-
+@misc{peng2024smalllargedocumentlevelevent,
+      title={One Small and One Large for Document-level Event Argument Extraction}, 
+      author={Jiaren Peng and Hongda Sun and Wenzhong Yang and Fuyuan Wei and Liang He and Liejun Wang},
+      year={2024},
+      eprint={2411.05895},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.05895}, 
+}
 ```
