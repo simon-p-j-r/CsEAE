@@ -1,4 +1,4 @@
-This is the implementation of the paper [One Small and One Large for Document-level Event Argument Extraction]
+This is the implementation of the paper [One Small and One Large for Document-level Event Argument Extraction](https://arxiv.org/pdf/2411.05895)
 
 
 ## Quick links
