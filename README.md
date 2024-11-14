@@ -42,18 +42,12 @@ We formulate contributions of CsLLMs as follow:
 ## Preparation
 
 ### Environment
-To run our code of CsEAE, please install all the dependency packages by using the following command:
+Please download the required dependencies as described in the README file of CsEAE.
 
-```
-pip install -r CsEAE/requirements.txt
-```
 All experiments run with BART_Large, You can install from [Huggingface](https://huggingface.co/facebook/bart-large).
 
-To run our code of CsLLMs, please install all the dependency packages by using the following command:
+Please download the required dependencies as described in the README file of CsLLMs.
 
-```
-pip install -r CsLLMs/requirements.txt
-```
 You can install the LLMs of Open-source from [Huggingface](https://huggingface.co/collections/meta-llama/meta-llama-3-66214712577ca38149ebb2b6).
 
 ### Data
