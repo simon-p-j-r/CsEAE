@@ -71,7 +71,7 @@ For detailed usage and additional information, please refer to the documentation
 ## Model
 
 We have preserved all the parameters related to the LLMs mentioned in the paper. If needed, please do not hesitate to contact me.
-
+```bibtex
 meta-llama3-8B- data in [ACE, RAMS, WikiEvents, MLEE, GENEVA]
 
 meta-llama3-8B-instructed- data in [ACE, RAMS, WikiEvents, MLEE, GENEVA]
@@ -91,7 +91,7 @@ llama-3-8B-instructed-csllms-wiki-rams-mlee
 llama-3-8B-instructed-ace-wiki-rams-mlee-geneva
 
 llama-3-8B-instructed-csllms-ace-wiki-rams-mlee-geneva
-
+```
 ---
 ## Acknowledgments
 We gratefully acknowledge the contributions of Yubo Ma, I-Hung Hsu and Yuxin He for their foundational code and data preprocessing methods.
