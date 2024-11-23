@@ -67,6 +67,32 @@ Thanks to the creators of these datasets for making their work available!
 For detailed usage and additional information, please refer to the documentation of **CsEAE** or **CsLLMs**.
 
 --- 
+
+## Model
+
+We have preserved all the parameters related to the LLMs mentioned in the paper. If needed, please do not hesitate to contact me.
+
+meta-llama3-8B- data in [ACE, RAMS, WikiEvents, MLEE, GENEVA]
+
+meta-llama3-8B-instructed- data in [ACE, RAMS, WikiEvents, MLEE, GENEVA]
+
+meta-llama3-8B-csllms- data in [RAMS, WikiEvents, MLEE]
+
+llama-3-8B-instructed-ace-wiki-rams
+
+llama-3-8B-instructed-ace-wiki-rams-geneva
+
+llama-3-8B-instructed-ace-wiki-rams-mlee
+
+llama-3-8B-instructed-wiki-rams-mlee
+
+llama-3-8B-instructed-csllms-wiki-rams-mlee
+
+llama-3-8B-instructed-ace-wiki-rams-mlee-geneva
+
+llama-3-8B-instructed-csllms-ace-wiki-rams-mlee-geneva
+
+---
 ## Acknowledgments
 We gratefully acknowledge the contributions of Yubo Ma, I-Hung Hsu and Yuxin He for their foundational code and data preprocessing methods.
 
