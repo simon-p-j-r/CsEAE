@@ -66,9 +66,7 @@ Thanks to the creators of these datasets for making their work available!
 ### Quick Start
 For detailed usage and additional information, please refer to the documentation of **CsEAE** or **CsLLMs**.
 
---- 
-
-## Model
+### LLMs
 
 We have preserved all the parameters related to the LLMs mentioned in the paper. If needed, please do not hesitate to contact me.
 ```bibtex
