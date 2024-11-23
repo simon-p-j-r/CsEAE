@@ -70,11 +70,11 @@ For detailed usage and additional information, please refer to the documentation
 
 We have preserved all the parameters related to the LLMs mentioned in the paper. If needed, please do not hesitate to contact me.
 ```bibtex
-meta-llama3-8B- data in [ACE, RAMS, WikiEvents, MLEE, GENEVA]
+llama3-8B- data in [ACE, RAMS, WikiEvents, MLEE, GENEVA]
 
-meta-llama3-8B-instructed- data in [ACE, RAMS, WikiEvents, MLEE, GENEVA]
+llama3-8B-instructed- data in [ACE, RAMS, WikiEvents, MLEE, GENEVA]
 
-meta-llama3-8B-csllms- data in [RAMS, WikiEvents, MLEE]
+llama3-8B-csllms- data in [RAMS, WikiEvents, MLEE]
 
 llama-3-8B-instructed-ace-wiki-rams
 
