@@ -5,7 +5,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key='',  # 100 new
-    base_url="https://api.chatanywhere.tech/v1"
+    base_url=""
 )
 
 
