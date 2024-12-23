@@ -299,25 +299,6 @@ def get_res_list(res_path, args, filter_no_prob=False, dataset_type=None, train=
         for i in range(len(lines)):
             lines[i] = json.loads(lines[i].strip())
 
-        if args.overlap:
-            for line_num, line in enumerate(lines):
-                line_event_dic = {}
-                line_event_dic['doc_id'] = line[0]
-                line_event_dic['text'] = ' '.join(line[2])
-                line_event_dic['tokens'] = line[2]
-                line_event_dic['sentences'] = line[9]
-                # for i, sentence in enumerate(line_event_dic['sentences']):
-                #     line_event_dic['sentences'][i] = ' '.join(sentence)
-                line_event_dic['event_mentions'] = []
-                line_event = {}
-                line_event['id'] = line[0] + '-E'
-                line_event['event_type'] = line[3]
-                line_event['trigger'] = line[4]
-                line_event['arguments'] = line[5]
-                line_event_dic['event_mentions'].append(line_event)
-                line_event_dic['len'] = len(line[2])
-                lines[line_num] = line_event_dic
-
         for line in lines:
             if not line['event_mentions']:
                 continue
