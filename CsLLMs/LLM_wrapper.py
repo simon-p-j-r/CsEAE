@@ -4,7 +4,7 @@ import asyncio
 from openai import OpenAI
 
 client = OpenAI(
-    api_key='sk-73tDIWPGPxPa7QwjnEMNaRII9RvvRb7Xc6sJktv2L5U6WYFR',  # 100 new
+    api_key='',  # 100 new
     base_url="https://api.chatanywhere.tech/v1"
 )
 
