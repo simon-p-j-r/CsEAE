@@ -12,6 +12,11 @@ This is the implementation of the paper [One Small and One Large for Document-le
 * [Acknowledgments](#acknowledgments)
 * [Citation](#citation)
 --- 
+## Update
+The main table data in the paper contains some errors. In our latest work, we have separated the data on the TextEE Benchmark.
+
+Moreover, experiments on the Benchmark demonstrate that CsEAE achieves state-of-the-art (SOTA) performance.
+
 ## Overview
 
 In this work we present CsEAE and CsLLMs for document-level event argument extraction. 
