@@ -13,8 +13,6 @@ This is the implementation of the paper [One Small and One Large for Document-le
 * [Citation](#citation)
 --- 
 ## Update
-The main table data in the paper contains errors. In our latest article, we have separated out the TextEE Benchmark data.
-Furthermore, experiments on the Benchmark show that CsEAE achieves state‑of‑the‑art (SOTA) performance.
 
 To validate the model’s effectiveness on the TextEE Benchmark, simply replace the processor_base.py file with processor_base_textee.py.
 
